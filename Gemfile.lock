@@ -2,7 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     GeoRuby (1.3.4)
+    bson (4.1.1)
+    dotenv (2.1.1)
     libxml-ruby (2.9.0)
+    mongo (2.3.0)
+      bson (~> 4.1)
     rubyvor (0.1.4)
       GeoRuby (>= 1.3.0)
       libxml-ruby (>= 0.9.9)
@@ -11,6 +15,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
+  mongo
   rubyvor (~> 0.1.4)
 
 BUNDLED WITH
