@@ -1,2 +1,6 @@
 *.svg
 *.jpg
+*.pdf
+
+.env
+*.json
